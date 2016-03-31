@@ -2,11 +2,11 @@
 "name":		"eztest",
 "main":		"eztest.js",
 "version":	"1.0.0",
-"description":	"Simple but effective unit testing",
+"description":	"Simple but effective JS unit testing",
 
 
 "keywords":		["testing","unit tests","assert"],
-"homepage":		"http://danml.com/eztest/",
+"homepage":		"https://github.com/rndme/",
 "license":		"CC-BY-4.0",
 "author":
   { 
