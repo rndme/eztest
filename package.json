@@ -1,6 +1,6 @@
 {
 "name":		"eztest",
-"main": 	"eztest.js",
+"main":		"eztest.js",
 "version":	"1.0.0",
 "description":	"Simple but effective unit testing",
 
