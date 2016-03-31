@@ -1,0 +1,36 @@
+{
+"name":		"eztest",
+"main": 	"eztest.js",
+"version":	"1.0.0",
+"description":	"Simple but effective unit testing",
+
+
+"keywords":		["testing","unit tests","assert"],
+"homepage":		"http://danml.com/eztest/",
+"license":		"CC-BY-4.0",
+"author":
+  { 
+	"name": 	"dandavis",
+	"email": 	"rndme@users.noreply.github.com",
+	"url": 		"http://danml.com/"
+  },
+"repository":
+  { 	
+	"type": 	"git",
+	"url":  	"https://github.com/rndme/eztest.git"
+  },
+"bugs":
+  { 
+	"email": 	"rndme@users.noreply.github.com"
+  },
+"files":	[
+	"eztest.js"
+],
+
+"npmName": 	"eztest",
+	"npmFileMap": [{
+		"basePath": "/",
+		"files": ["*.js"]
+  }]
+  
+}
