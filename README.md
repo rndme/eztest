@@ -3,9 +3,11 @@
 
 
 ### About
-eztest allows quickly-written tests without any special syntax, vocab, or conventions.
+eztest allows quickly-written unit tests without any special syntax, vocab, or conventions.
 
-You just write simple test expressions, with and optional label, one-per-line or delimted by `~`.
+The goal is to reduce boilerplate to the bare minimum while still providing a useful testing mechanism.
+
+You write simple test expressions, with an optional label, one-per-line or delimted by `~`.
 
 
 ### Usage
