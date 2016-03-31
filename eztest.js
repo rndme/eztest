@@ -1,4 +1,15 @@
-function eztest(strSource) {
+(function(global, factory) {
+  if (typeof exports === 'object' && exports && typeof exports.nodeName !== 'string') {
+    exports = factory(); // CommonJS
+  } else if (typeof define === 'function' && define.amd) {
+    define(['exports'], factory); // AMD
+  } else {
+    global.eztest = factory(); // script, wsh, asp
+  }
+}(this, function () {
+  "use strict";
+  
+  function eztest(strSource) {
 	return strSource
 	  .trim()
 	  .split(/~/.test(strSource) ? "~" : "\n")
@@ -24,3 +35,7 @@ function eztest(strSource) {
 		};
 	});
 }
+
+ return eztest;
+ 
+}));
