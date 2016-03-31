@@ -1,36 +1,37 @@
 {
-"name":		"eztest",
-"main":		"eztest.js",
-"version":	"1.0.0",
-"description":	"Simple but effective JS unit testing",
-
-
-"keywords":		["testing","unit tests","assert"],
-"homepage":		"https://github.com/rndme/",
-"license":		"CC-BY-4.0",
-"author":
-  { 
-	"name": 	"dandavis",
-	"email": 	"rndme@users.noreply.github.com",
-	"url": 		"http://danml.com/"
+  "name": "eztest",
+  "main": "eztest.js",
+  "version": "1.0.1",
+  "description": "Simple but effective JS unit testing",
+  "keywords": [
+    "testing",
+    "unit tests",
+    "assert"
+  ],
+  "homepage": "https://github.com/rndme/",
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "dandavis",
+    "email": "rndme@users.noreply.github.com",
+    "url": "http://danml.com/"
   },
-"repository":
-  { 	
-	"type": 	"git",
-	"url":  	"https://github.com/rndme/eztest.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rndme/eztest.git"
   },
-"bugs":
-  { 
-	"email": 	"rndme@users.noreply.github.com"
+  "bugs": {
+    "email": "rndme@users.noreply.github.com"
   },
-"files":	[
-	"eztest.js"
-],
-
-"npmName": 	"eztest",
-	"npmFileMap": [{
-		"basePath": "/",
-		"files": ["*.js"]
-  }]
-  
+  "files": [
+    "eztest.js"
+  ],
+  "npmName": "eztest",
+  "npmFileMap": [
+    {
+      "basePath": "/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ]
 }
