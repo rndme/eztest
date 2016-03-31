@@ -15,10 +15,10 @@ node.js:   `npm install mofun`
 
 ### Syntax
 ```js
-eztest("1_and_2_make_3: 1+2==3") == [{
+eztest("1_and_2_make_3: 1+2 == 3") == [{
   name: 	"1 and 2 make 3", // label text or "untitled"
   result: 	true,		// returned value
-  bools: 	true,		// value is truthy (for collating)
+  bool: 	true,		// value is truthy (for collating)
   test: 	"1+2==3"	// the code that was run
 }];
 ```
