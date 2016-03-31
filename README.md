@@ -10,7 +10,7 @@ You just write simple test expressions, with and optional label, one-per-line or
 
 ### Usage
 browsers:  `<script src=eztest.js></script>` <br>
-node.js:   `npm install mofun`
+node.js:   `npm install eztest`
 
 
 ### Syntax
